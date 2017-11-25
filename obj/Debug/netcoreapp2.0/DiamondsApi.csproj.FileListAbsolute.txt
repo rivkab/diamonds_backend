@@ -1,0 +1,10 @@
+c:\Users\Rivka\DiamondsApi\bin\Debug\netcoreapp2.0\DiamondsApi.deps.json
+c:\Users\Rivka\DiamondsApi\bin\Debug\netcoreapp2.0\DiamondsApi.runtimeconfig.json
+c:\Users\Rivka\DiamondsApi\bin\Debug\netcoreapp2.0\DiamondsApi.runtimeconfig.dev.json
+c:\Users\Rivka\DiamondsApi\bin\Debug\netcoreapp2.0\DiamondsApi.dll
+c:\Users\Rivka\DiamondsApi\bin\Debug\netcoreapp2.0\DiamondsApi.pdb
+c:\Users\Rivka\DiamondsApi\obj\Debug\netcoreapp2.0\DiamondsApi.csproj.CoreCompileInputs.cache
+c:\Users\Rivka\DiamondsApi\obj\Debug\netcoreapp2.0\DiamondsApi.AssemblyInfoInputs.cache
+c:\Users\Rivka\DiamondsApi\obj\Debug\netcoreapp2.0\DiamondsApi.AssemblyInfo.cs
+c:\Users\Rivka\DiamondsApi\obj\Debug\netcoreapp2.0\DiamondsApi.dll
+c:\Users\Rivka\DiamondsApi\obj\Debug\netcoreapp2.0\DiamondsApi.pdb
