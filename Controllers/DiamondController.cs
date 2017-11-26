@@ -16,7 +16,7 @@ namespace DiamondsApi.Controllers
 
             if (_context.Diamonds.Count() == 0)
             {
-                //TODO read straight from csv
+                //alternatively could parse from .csv
                 _context.Diamonds.Add(new Diamond { Shape="Round", Size=1.02,
                             Color="D", Clarity="IF",Price=15000, ListPrice=18000 });
                 _context.Diamonds.Add(new Diamond { Shape="Pear", Size=1.5,
@@ -43,14 +43,11 @@ namespace DiamondsApi.Controllers
         [HttpPost]
         public IActionResult Create([FromBody] Diamond diamond)
         {
-            System.Diagnostics.Debug.WriteLine("got diamond ");
-            //only client for now is specified to be front end. if we add more may need further verification
+            //only client for now is specified to be our front end. if we add more may need further verification
             if (diamond == null)
             {
-                System.Diagnostics.Debug.WriteLine("bad");
                 return BadRequest();
             }
-            System.Diagnostics.Debug.WriteLine("valid");
             _context.Diamonds.Add(diamond);
             _context.SaveChanges();
 
