@@ -4,10 +4,10 @@ namespace DiamondsApi.Models
     {
         public long Id { get; set; }
         public string Shape { get; set; }
-        public float Size { get; set; }
+        public double Size { get; set; }
         public string Color { get; set; }
         public string Clarity { get; set; }
-        public float Price { get; set; }
-        public float ListPrice { get; set; }
+        public double Price { get; set; }
+        public double ListPrice { get; set; }
     }
 }
